@@ -13,7 +13,8 @@ export async function GET(req: Request) {
 
   try {
     const res = await fetch(
-      `https://api.domainsdb.info/v1/domains/search?domain=${encodeURIComponent(domain)}`,
+     
+      `https://api.whois.vu/?q=${encodeURIComponent(domain)}`,
       { next: { revalidate: 0 } }
     );
 
@@ -22,11 +23,9 @@ export async function GET(req: Request) {
     }
 
     const data = await res.json();
-    const taken = (data?.domains ?? []).some(
-      (d: any) => d.domain.toLowerCase() === domain.toLowerCase()
-    );
+    const available = data?.available === "yes";
 
-    return NextResponse.json({ available: !taken });
+    return NextResponse.json({ available });
   } catch (e) {
     return NextResponse.json(
       { error: "Error checking domain" },
