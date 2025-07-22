@@ -9,7 +9,7 @@
     "slug": "begov-nazim",
     "biography": {
       "summary": "Назим — full-stack разработчик, специализирующийся на React и Next.js.",
-      "body": "За годы работы Назим создал множество сайтов и веб‑приложений для клиентов из разных сфер."
+      "body": "За годы работы мы создали множество сайтов и веб‑приложений для клиентов из разных сфер."
     },
     "articles": [
       {
@@ -17,9 +17,9 @@
         "popular": true,
         "popularity": 1,
         "description": "Многостраничный корпоративный сайт строительной компании.",
-        "date": "01 January 2024",
+        "date": "Март 2024",
         "read": "2 mins",
-        "label": "portfolio",
+        "label": "Корпоративный",
         "img": "https://dummyimage.com/600x400.png?text=cstbi.ru",
         "imgAlt": "Screenshot of cstbi.ru",
         "slug": "cstbi",
@@ -50,9 +50,9 @@
         "popular": true,
         "popularity": 2,
         "description": "Сайт бегового клуба с расписанием и формой записи.",
-        "date": "15 February 2024",
+        "date": "Июнь 2025",
         "read": "2 mins",
-        "label": "portfolio",
+        "label": "Лендинг",
         "img": "https://dummyimage.com/600x400.png?text=begovclt.ru",
         "imgAlt": "Screenshot of begovclt.ru",
         "slug": "begovclt",
@@ -83,9 +83,9 @@
         "popular": true,
         "popularity": 3,
         "description": "Корпоративный сайт бухгалтерского сервиса.",
-        "date": "20 March 2024",
+        "date": "Сентябрь 2021",
         "read": "2 mins",
-        "label": "portfolio",
+        "label": "Корпоративный",
         "img": "https://dummyimage.com/600x400.png?text=buhsec.ru",
         "imgAlt": "Screenshot of buhsec.ru",
         "slug": "buhsec",
@@ -116,9 +116,9 @@
         "popular": true,
         "popularity": 4,
         "description": "Промо‑страница криптовалютного кошелька.",
-        "date": "05 April 2024",
+        "date": "Январь 2023",
         "read": "2 mins",
-        "label": "portfolio",
+        "label": "Лендинг",
         "img": "https://dummyimage.com/600x400.png?text=vpwallet.io",
         "imgAlt": "Screenshot of vpwallet.io",
         "slug": "vpwallet",
@@ -151,7 +151,7 @@
         "description": "Сайт поставщика IT оборудования.",
         "date": "Май 2020",
         "read": "14 mins",
-        "label": "portfolio",
+        "label": "Корпоративный",
         "img": "https://dummyimage.com/600x400.png?text=msk-sarmat.ru",
         "imgAlt": "Screenshot of msk-sarmat.ru",
         "slug": "msksarmat",
@@ -184,7 +184,7 @@
         "description": "Портал производителя строительных смесей.",
         "date": "Декабрь 2023",
         "read": "2 mins",
-        "label": "portfolio",
+        "label": "Корпоративный",
         "img": "https://dummyimage.com/600x400.png?text=rusalmix.ru",
         "imgAlt": "Screenshot of rusalmix.ru",
         "slug": "rusalmix",
@@ -207,6 +207,39 @@
           },
           {
             "section2": "Онлайн‑заявки и поддержка дилеров."
+          }
+        ]
+      },
+      {
+        "title": "DveriBrend",
+        "popular": true,
+        "popularity": 7,
+        "description": "Портал производителя строительных смесей.",
+        "date": "июнь 2018",
+        "read": "2 mins",
+        "label": "Интернет-магазин",
+        "img": "https://dummyimage.com/600x400.png?text=dveribrend.ru",
+        "imgAlt": "Screenshot of rusalmix.ru",
+        "slug": "dveribrend",
+        "content": [
+          {
+            "img": "https://dummyimage.com/1488x992.png?text=dveribrend.ru",
+            "summary": "Интернет-магазин дверей с фильтрами и корзиной."
+          },
+          {
+            "section1": "Разработка на CMS системе Wordpress."
+          },
+          {
+            "quote": [
+              "Надежный партнер в WEB индустрии",
+              "Отзывы клиентов"
+            ]
+          },
+          {
+            "summary2": "Поддержка онлайн оплаты и динамичных цен."
+          },
+          {
+            "section2": "Админ панель и CRM система."
           }
         ]
       }
