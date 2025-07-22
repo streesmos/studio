@@ -2,7 +2,7 @@
 const nextConfig = {
   images: {
   
-    domains: ['dummyimage.com'],
+    domains: ['mini.s-shot.ru'],
   },
 }
 

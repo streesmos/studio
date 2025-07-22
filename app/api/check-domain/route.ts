@@ -13,6 +13,7 @@ export async function GET(req: Request) {
 
   try {
     const res = await fetch(
+     
       `https://api.whois.vu/?q=${encodeURIComponent(domain)}`,
       { next: { revalidate: 0 } }
     );
