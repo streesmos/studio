@@ -13,7 +13,7 @@ export default function PopularArticles() {
 
   return (
     <article>
-      <h2 className="uppercase font-semibold mt-16 mb-8">Most Popular</h2>
+      <h2 className="uppercase font-semibold mt-16 mb-8">Самое популярное</h2>
       {popularArticles.map((article, index) => (
         <article key={article.title}>
           <div className="grid grid-cols-[0fr_1fr] gap-8">

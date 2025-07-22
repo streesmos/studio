@@ -91,13 +91,13 @@ export default function Footer() {
             <nav className="flex flex-1" aria-label="left-footer-links">
               <ul className="text-white space-y-3">
                 <li>
-                  <Link href="#">Art</Link>
+                  <Link href="#">Арт</Link>
                 </li>
                 <li>
-                  <Link href="#">Design</Link>
+                  <Link href="#">Дизайн</Link>
                 </li>
                 <li>
-                  <Link href="#">Architecture</Link>
+                  <Link href="#">Архитектура</Link>
                 </li>
               </ul>
             </nav>
@@ -114,13 +114,13 @@ export default function Footer() {
             <nav className="flex flex-1" aria-label="right-footer-links">
               <ul className="text-white space-y-3">
                 <li>
-                  <a href="#">Styleguide</a>
+                  <a href="#">Гайд по стилю</a>
                 </li>
                 <li>
-                  <a href="#">Licensing</a>
+                  <a href="#">Лицензии</a>
                 </li>
                 <li>
-                  <a href="#">Changelog</a>
+                  <a href="#">История изменений</a>
                 </li>
               </ul>
             </nav>
@@ -128,10 +128,8 @@ export default function Footer() {
         </div>
         <div className="flex flex-wrap flex-col md:flex-row justify-between gap-6 py-3 lg:pt-[6rem] lg:pb-[4.0625rem] w-full">
           <p className="font-regular text-white">
-            Designed by{" "}
-            <Link href="https://templates.gola.io/templates">Pawel Gola</Link>.
-            Developed by Aman Singh Bhogal. All content belongs to their
-            respective copyright holders.
+            Дизайн: <Link href="https://templates.gola.io/templates">Pawel Gola</Link>.
+            Разработка: Aman Singh Bhogal. Все права принадлежат владельцам.
           </p>
           <FooterSocialLinks />
         </div>

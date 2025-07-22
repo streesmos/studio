@@ -121,28 +121,28 @@ export default async function ArticleDetails({
                 </time>
               </div>
               <div className="flex flex-wrap justify-between">
-                <p className="font-semibold">Read</p>
+                <p className="font-semibold">Чтение</p>
                 <p>{matchingArticle.read}</p>
               </div>
               <div className="flex flex-wrap justify-between">
-                <p className="flex font-semibold">Share</p>
+                <p className="flex font-semibold">Поделиться</p>
                 <SocialSharing
                   links={[
                     {
                       href: "#",
-                      ariaLabel: "Visit our Instagram page",
+                      ariaLabel: "Наш Instagram",
                       src: "/icons/ri_instagram-line.svg",
                       alt: "Instagram logo",
                     },
                     {
                       href: "#",
-                      ariaLabel: "Visit our Twitter page",
+                      ariaLabel: "Наш Twitter",
                       src: "/icons/ri_twitter-fill.svg",
                       alt: "Twitter logo",
                     },
                     {
                       href: "#",
-                      ariaLabel: "Visit our YouTube page",
+                      ariaLabel: "Наш YouTube",
                       src: "/icons/ri_youtube-fill.svg",
                       alt: "YouTube logo",
                     },

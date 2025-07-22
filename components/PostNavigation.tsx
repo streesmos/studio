@@ -19,9 +19,9 @@ export default function PostNavigation({
         <img
           className="rotate-180"
           src="/icons/ri_arrow-right-line.svg"
-          alt="Right arrow"
+          alt="Стрелка вправо"
         />
-        Go Back
+        Назад
       </Link>
       <p className="uppercase font-semibold text-lg md:text-[2rem]">
         {children}

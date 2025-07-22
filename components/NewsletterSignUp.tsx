@@ -42,7 +42,7 @@ export default function NewsletterSignUp({
     const responseData = await response.json();
 
     if (!response.ok) {
-      alert("Email subscription form failed");
+      alert("Не удалось отправить форму подписки");
       return;
     }
 
@@ -54,7 +54,7 @@ export default function NewsletterSignUp({
           message: errors.email,
         });
       } else {
-        alert("Something went wrong");
+        alert("Произошла ошибка");
       }
     }
     // reset();
@@ -67,7 +67,7 @@ export default function NewsletterSignUp({
           {...register("email")}
           className={`mb-2 ${inputClassName}`}
           type="text"
-          placeholder="Email Address"
+          placeholder="Email"
           name="email"
         />
         <Button
@@ -75,7 +75,7 @@ export default function NewsletterSignUp({
           type="submit"
           className={`disabled:cursor-none ${buttonClassName}`}
         >
-          Sign Up
+          Подписаться
         </Button>
       </div>
       {errors.email && (
