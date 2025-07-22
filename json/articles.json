@@ -3,8 +3,8 @@
     "id": 1,
     "author": "Begov Nazim",
     "job": "Web Developer",
-    "city": "Ufa",
-    "avatar": "/images/authors/anne-henry.jpg",
+    "city": "Moscow",
+    "avatar": "/images/authors/begov-nazim.jpg",
     "imgAlt": "Портрет Назима",
     "slug": "begov-nazim",
     "biography": {
@@ -13,7 +13,7 @@
     },
     "articles": [
       {
-        "title": "Corporate site CSTBI",
+        "title": "Корпоративный сайт CSTBI",
         "popular": true,
         "popularity": 1,
         "description": "Многостраничный корпоративный сайт строительной компании.",
@@ -46,7 +46,7 @@
         ]
       },
       {
-        "title": "Landing for Begov Club",
+        "title": "Айдентика для Бегов консалт",
         "popular": true,
         "popularity": 2,
         "description": "Сайт бегового клуба с расписанием и формой записи.",
@@ -59,27 +59,27 @@
         "content": [
           {
             "img": "https://dummyimage.com/1488x992.png?text=begovclt.ru",
-            "summary": "Лендинг, описывающий клуб."
+            "summary": "Лендинг, описывающий консалтинговое агенство."
           },
           {
             "section1": "Создан с использованием Next.js и Tailwind CSS."
           },
           {
             "quote": [
-              "Бег с энтузиазмом",
-              "Девиз клиента"
+              "Ваш надёжный партнёр в получении государственной поддержки",
+              "Слоган клиента"
             ]
           },
           {
             "summary2": "Адаптивная верстка для мобильных устройств."
           },
           {
-            "section2": "Реализована регистрация участников и расписание мероприятий."
+            "section2": "100% СЕО оптимизация сайта"
           }
         ]
       },
       {
-        "title": "Corporate site BuhSec",
+        "title": "Корпоративный сайт BuhSec",
         "popular": true,
         "popularity": 3,
         "description": "Корпоративный сайт бухгалтерского сервиса.",
@@ -95,7 +95,7 @@
             "summary": "Витрина услуг и формы обратной связи."
           },
           {
-            "section1": "Использованы Next.js и Tailwind CSS."
+            "section1": "Использована CMS система WordPress"
           },
           {
             "quote": [
@@ -148,9 +148,9 @@
         "title": "MSK Sarmat",
         "popular": true,
         "popularity": 5,
-        "description": "Сайт московской охранной компании.",
-        "date": "12 April 2024",
-        "read": "2 mins",
+        "description": "Сайт поставщика IT оборудования.",
+        "date": "Май 2020",
+        "read": "14 mins",
         "label": "portfolio",
         "img": "https://dummyimage.com/600x400.png?text=msk-sarmat.ru",
         "imgAlt": "Screenshot of msk-sarmat.ru",
@@ -161,7 +161,7 @@
             "summary": "Информация об услугах и лицензиях."
           },
           {
-            "section1": "Реализована многоязычность."
+            "section1": "Адаптивная верстка."
           },
           {
             "quote": [
@@ -182,7 +182,7 @@
         "popular": true,
         "popularity": 6,
         "description": "Портал производителя строительных смесей.",
-        "date": "25 April 2024",
+        "date": "Декабрь 2023",
         "read": "2 mins",
         "label": "portfolio",
         "img": "https://dummyimage.com/600x400.png?text=rusalmix.ru",
@@ -194,7 +194,7 @@
             "summary": "Каталог продукции с фильтрами."
           },
           {
-            "section1": "Разработка на Next.js, подключение CMS."
+            "section1": "Разработка на CMS системе Wordpress."
           },
           {
             "quote": [
