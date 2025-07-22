@@ -7,8 +7,8 @@ import PodcastContextProvider from "@/context/PodcastContext";
 import ArticleContextProvider from "@/context/ArticleContext";
 
 export const metadata: Metadata = {
-  title: "Andrey Portfolio",
-  description: "Web developer works",
+  title: "Портфолио Бегова Назима",
+  description: "Работы веб‑разработчика",
 };
 
 export default function RootLayout({
@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="ru" className="scroll-smooth">
       <head>
         <link
           rel="icon"

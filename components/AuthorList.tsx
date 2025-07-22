@@ -27,7 +27,7 @@ export default async function AuthorsList() {
                 <p>{authors.job}</p>
               </div>
               <div className="flex gap-2">
-                <p className="font-semibold">City</p>
+                <p className="font-semibold">Город</p>
                 <p>{authors.city}</p>
               </div>
               <Link

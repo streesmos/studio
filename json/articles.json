@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "author": "Andrey Lis",
+    "author": "Begov Nazim",
     "job": "Web Developer",
     "city": "Ufa",
     "avatar": "/images/authors/anne-henry.jpg",
-    "imgAlt": "Portrait of Andrey",
-    "slug": "andrey-lis",
+    "imgAlt": "Портрет Назима",
+    "slug": "begov-nazim",
     "biography": {
-      "summary": "Andrey is a full-stack developer specialising in React and Next.js.",
-      "body": "Over the years Andrey has created numerous websites and web applications for clients in various industries."
+      "summary": "Назим — full-stack разработчик, специализирующийся на React и Next.js.",
+      "body": "За годы работы Назим создал множество сайтов и веб‑приложений для клиентов из разных сфер."
     },
     "articles": [
       {
         "title": "Corporate site CSTBI",
         "popular": true,
         "popularity": 1,
-        "description": "Multi-page corporate website for a construction company.",
+        "description": "Многостраничный корпоративный сайт строительной компании.",
         "date": "01 January 2024",
         "read": "2 mins",
         "label": "portfolio",
-        "img": "https://via.placeholder.com/600x400.png?text=cstbi.ru",
+        "img": "https://dummyimage.com/600x400.png?text=cstbi.ru",
         "imgAlt": "Screenshot of cstbi.ru",
         "slug": "cstbi",
         "content": [
           {
-            "img": "https://via.placeholder.com/1488x992.png?text=cstbi.ru",
-            "summary": "Project overview and goals."
+            "img": "https://dummyimage.com/1488x992.png?text=cstbi.ru",
+            "summary": "Описание проекта и его цели."
           },
           {
-            "section1": "Tech stack: HTML, CSS, JavaScript, React."
+            "section1": "Технологии: HTML, CSS, JavaScript, React."
           },
           {
             "quote": [
-              "Great collaboration leads to great results",
-              "Feedback from the client"
+              "Хорошее сотрудничество ведёт к отличным результатам",
+              "Отзыв клиента"
             ]
           },
           {
-            "summary2": "Responsive design and SEO optimisation."
+            "summary2": "Адаптивный дизайн и SEO‑оптимизация."
           },
           {
-            "section2": "The website presents services and allows visitors to get in touch via forms."
+            "section2": "Сайт представляет услуги и позволяет посетителям связаться через формы."
           }
         ]
       },
@@ -49,32 +49,32 @@
         "title": "Landing for Begov Club",
         "popular": true,
         "popularity": 2,
-        "description": "Site for a running club with schedule and membership form.",
+        "description": "Сайт бегового клуба с расписанием и формой записи.",
         "date": "15 February 2024",
         "read": "2 mins",
         "label": "portfolio",
-        "img": "https://via.placeholder.com/600x400.png?text=begovclt.ru",
+        "img": "https://dummyimage.com/600x400.png?text=begovclt.ru",
         "imgAlt": "Screenshot of begovclt.ru",
         "slug": "begovclt",
         "content": [
           {
-            "img": "https://via.placeholder.com/1488x992.png?text=begovclt.ru",
-            "summary": "Landing page describing the club."
+            "img": "https://dummyimage.com/1488x992.png?text=begovclt.ru",
+            "summary": "Лендинг, описывающий клуб."
           },
           {
-            "section1": "Built with Next.js and Tailwind CSS."
+            "section1": "Создан с использованием Next.js и Tailwind CSS."
           },
           {
             "quote": [
-              "Running with passion",
-              "Client motto"
+              "Бег с энтузиазмом",
+              "Девиз клиента"
             ]
           },
           {
-            "summary2": "Adaptive layout for mobile devices."
+            "summary2": "Адаптивная верстка для мобильных устройств."
           },
           {
-            "section2": "Implemented membership registration and events schedule."
+            "section2": "Реализована регистрация участников и расписание мероприятий."
           }
         ]
       }

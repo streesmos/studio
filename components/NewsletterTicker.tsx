@@ -3,7 +3,7 @@
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
 
-export default function NewsletterTicker() {
+export default function РассылкаTicker() {
   const newsletterText = useRef<HTMLDivElement | null>(null);
   let xPercent = 0;
   const animationDuration = 20;
@@ -35,25 +35,25 @@ export default function NewsletterTicker() {
   return (
     <div ref={newsletterText} className="flex bg-black text-white py-5">
       <span className="flex gap-2 pr-6">
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
-        <p className="font-semibold text-2xl uppercase">Newsletter+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
+        <p className="font-semibold text-2xl uppercase">Рассылка+++</p>
       </span>
     </div>
   );

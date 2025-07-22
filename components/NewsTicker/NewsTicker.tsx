@@ -4,7 +4,7 @@ import gsap from "gsap";
 import { useEffect, useRef } from "react";
 import news from "@/json/news.json";
 
-export default function NewsTicker() {
+export default function НовостиTicker() {
   const newsText = useRef<HTMLDivElement | null>(null);
   let xPercent = 0;
   const animationDuration = 20;
@@ -37,9 +37,9 @@ export default function NewsTicker() {
     <div className="flex bg-black text-white py-5 max-w-[95rem] w-full mx-auto relative overflow-hidden">
       <div className="bg-black z-10 px-6">
         <span className="flex gap-2 bg-black font-semibold uppercase whitespace-nowrap">
-          <p>News</p>
+          <p>Новости</p>
           <p className="block sm:hidden">+++</p>
-          <p className="hidden sm:block">Ticker +++</p>
+          <p className="hidden sm:block">Лента +++</p>
         </span>
       </div>
       <div ref={newsText} className="flex gap-4 sliding-ticker relative">
