@@ -88,25 +88,16 @@ export default function Footer() {
           </svg>
 
           <div className="flex lg:flex-row max-w-[63.125rem] w-full">
-            <nav className="flex flex-1" aria-label="left-footer-links">
-              <ul className="text-white space-y-3">
-                <li>
-                  <Link href="#">Арт</Link>
-                </li>
-                <li>
-                  <Link href="#">Дизайн</Link>
-                </li>
-                <li>
-                  <Link href="#">Архитектура</Link>
-                </li>
-              </ul>
-            </nav>
+         
             <nav className="flex flex-1" aria-label="middle-footer-links">
               <ul className="text-white space-y-3">
                 <li>
                   <Link href="/magazine">Портфолио</Link>
                 </li>
                 <li>
+                  <Link href="/services">Авторы</Link>
+                </li>
+                 <li>
                   <Link href="/authors">Авторы</Link>
                 </li>
               </ul>
@@ -114,14 +105,12 @@ export default function Footer() {
             <nav className="flex flex-1" aria-label="right-footer-links">
               <ul className="text-white space-y-3">
                 <li>
-                  <a href="#">Styleguide</a>
+                  <a href="/brief">Бриф</a>
                 </li>
                 <li>
-                  <a href="#">Licensing</a>
+                  <a href="#">Проверить домен</a>
                 </li>
-                <li>
-                  <a href="#">Changelog</a>
-                </li>
+               
               </ul>
             </nav>
           </div>
@@ -129,8 +118,8 @@ export default function Footer() {
         <div className="flex flex-wrap flex-col md:flex-row justify-between gap-6 py-3 lg:pt-[6rem] lg:pb-[4.0625rem] w-full">
           <p className="font-regular text-white">
             Дизайн&nbsp;
-            <Link href="https://templates.gola.io/templates">Pawel Gola</Link>.
-            Разработка Aman Singh Bhogal. Все права на контент принадлежат их владельцам.
+            <Link href="https://templates.gola.io/templates">Begov Nazim & Ilya Doncov</Link>.
+            Разработка Begov Studio.
           </p>
           <FooterSocialLinks />
         </div>
