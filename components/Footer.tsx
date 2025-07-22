@@ -40,7 +40,7 @@ export default function Footer() {
                   <Link href="/magazine">Портфолио</Link>
                 </li>
                 <li>
-                  <Link href="/services">Авторы</Link>
+                  <Link href="/services">Услуги</Link>
                 </li>
                  <li>
                   <Link href="/authors">Авторы</Link>
