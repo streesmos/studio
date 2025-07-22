@@ -37,7 +37,7 @@ export default function НовостиTicker() {
     <div className="flex bg-black text-white py-5 max-w-[95rem] w-full mx-auto relative overflow-hidden">
       <div className="bg-black z-10 px-6">
         <span className="flex gap-2 bg-black font-semibold uppercase whitespace-nowrap">
-          <p>Новости</p>
+          <p>Услуги</p>
           <p className="block sm:hidden">+++</p>
           <p className="hidden sm:block">Лента +++</p>
         </span>
