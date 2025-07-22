@@ -1,7 +1,8 @@
 'use client';
 
 import React from "react";
-import { useForm } from 'react-hook-form';
+import { useForm as useFormHook } from 'react-hook-form';
+import { useForm as useFormSpree } from '@formspree/react';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { Input } from '@/components/ui/input';
@@ -41,17 +42,17 @@ export default function BriefPage() {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm<FormSchema>({ resolver: zodResolver(schema) });
+  } = useFormHook<FormSchema>({ resolver: zodResolver(schema) });
+  const [state, handleSubmitSpree] = useFormSpree<FormSchema>('mzzveraz');
 
   const [step, setStep] = React.useState(1);
 
   async function onSubmit(data: FormSchema) {
-    await fetch('/api/brief', {
-      method: 'POST',
-      body: JSON.stringify(data),
-      headers: { 'Content-Type': 'application/json' },
-    });
-    alert('Анкета отправлена');
+    await handleSubmitSpree(data);
+  }
+
+  if (state.succeeded) {
+    return <p className="p-4">Анкета отправлена</p>;
   }
 
   return (
