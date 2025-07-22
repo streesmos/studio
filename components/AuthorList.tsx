@@ -23,7 +23,7 @@ export default async function AuthorsList() {
             </div>
             <div className="flex flex-col lg:flex-row gap-2 lg:gap-24">
               <div className="flex gap-2">
-                <p className="font-semibold">Job</p>
+                <p className="font-semibold">Специализация</p>
                 <p>{authors.job}</p>
               </div>
               <div className="flex gap-2">
