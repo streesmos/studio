@@ -9,6 +9,10 @@ const menu: MenuItem[] = [
     label: "Портфолио",
   },
   {
+    href: "/services",
+    label: "Услуги",
+  },
+  {
     href: "/brief",
     label: "Бриф",
   },
