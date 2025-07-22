@@ -1,7 +1,6 @@
 "use client";
 
 import { useArticleContext } from "@/hooks/useArticleContext";
-import Sidebar from "../Sidebar";
 import { Separator } from "@radix-ui/react-separator";
 import Link from "next/link";
 import Loading from "./loading";
@@ -36,17 +35,17 @@ export default function LatestArticles() {
                 <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-2">
                   <div className="flex flex-col sm:flex-row gap-2 sm:gap-6">
                     <span className="flex flex-wrap">
-                      <p className="font-semibold pr-2">Text</p>
+                      <p className="font-semibold pr-2">Автор</p>
                       <p>{data[0].author}</p>
                     </span>
                     <span className="flex flex-wrap">
-                      <p className="font-semibold pr-2">Date</p>
+                      <p className="font-semibold pr-2">Дата</p>
                       <time dateTime={data[0].articles[0].date}>
                         {data[0].articles[0].date}
                       </time>
                     </span>
                     <span className="flex flex-wrap">
-                      <p className="font-semibold pr-2">Read</p>
+                      <p className="font-semibold pr-2">Чтение</p>
                       <p>{data[0].articles[0].read}</p>
                     </span>
                   </div>
@@ -96,15 +95,15 @@ export default function LatestArticles() {
                     <div className="flex flex-col sm:flex-row gap-4 justify-between sm:items-center">
                       <div className="flex flex-col sm:flex-row gap-2 sm:gap-6">
                         <span className="flex flex-wrap">
-                          <p className="font-semibold pr-2">Text</p>
+                          <p className="font-semibold pr-2">Автор</p>
                           <p>{data[0].author}</p>
                         </span>
                         <span className="flex flex-wrap">
-                          <p className="font-semibold pr-2">Date</p>
+                          <p className="font-semibold pr-2">Дата</p>
                           <time dateTime={article.date}>{article.date}</time>
                         </span>
                         <span className="flex flex-wrap">
-                          <p className="font-semibold pr-2">Read</p>
+                          <p className="font-semibold pr-2">Чтение</p>
                           <p>{article.read}</p>
                         </span>
                       </div>
@@ -119,9 +118,6 @@ export default function LatestArticles() {
                 )}
               </article>
             ))}
-          </div>
-          <div className="lg:w-1/4">
-            <Sidebar />
           </div>
         </div>
       </>

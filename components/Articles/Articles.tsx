@@ -73,11 +73,11 @@ export default function Articles() {
             <p className="mt-3 mb-12">{articleData.description}</p>
             <div className="flex flex-wrap gap-4">
               <span className="flex">
-                <p className="font-semibold pr-2">Text</p>
+                <p className="font-semibold pr-2">Автор</p>
                 <p>{articleData.author}</p>
               </span>
               <span className="flex">
-                <p className="font-semibold pr-2">Duration</p>
+                <p className="font-semibold pr-2">Чтение</p>
                 <p>{articleData.read}</p>
               </span>
             </div>

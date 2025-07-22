@@ -19,7 +19,7 @@ export default function Header() {
         <Sheet>
           <SheetTrigger aria-labelledby="button-label">
             <span id="button-label" hidden>
-              Menu
+              Меню
             </span>
             <svg
               aria-hidden="true"
@@ -38,7 +38,7 @@ export default function Header() {
           <SheetContent
             side="top"
             className="w-full pt-14"
-            aria-label="Menu Toggle"
+            aria-label="Переключить меню"
           >
             <nav
               className="flex flex-col flex-1 justify-end gap-6"

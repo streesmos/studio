@@ -1,8 +1,6 @@
 import Authors from "@/components/Authors/Authors";
 import LatestArticles from "@/components/LatestArticles/LatestArticles";
 import NewsLoading from "@/components/NewsTicker/loading";
-import LatestPodcasts from "@/components/LatestPodcasts/LatestPodcasts";
-import LatestPodcastsLoading from "@/components/LatestPodcasts/loading";
 import AuthorsLoading from "@/components/Authors/loading";
 import NewsTicker from "@/components/NewsTicker/NewsTicker";
 import PageTitle from "@/components/PageTitle";
@@ -10,8 +8,8 @@ import Subheading from "@/components/Subheading";
 import { Suspense } from "react";
 
 export const metadata = {
-  title: "Andrey Portfolio | Home",
-  description: "Showcase of completed projects",
+  title: "Портфолио Begov Nazim | Главная",
+  description: "Список завершенных проектов",
 };
 
 export default function Home() {
@@ -20,9 +18,9 @@ export default function Home() {
       <PageTitle
         className="sr-only"
         imgSrc="/images/titles/Art&Life.svg"
-        imgAlt="The words 'Art & Life' in bold uppercase lettering"
+        imgAlt="Надпись 'Art & Life' крупными буквами"
       >
-        Art & Life
+        Искусство и жизнь
       </PageTitle>
 
       <Suspense fallback={<NewsLoading />}>
@@ -31,24 +29,13 @@ export default function Home() {
 
       <LatestArticles />
 
-      <Subheading
-        className="text-subheading"
-        url="/podcasts"
-        linkText="All episodes"
-      >
-        Podcast
-      </Subheading>
-
-      <Suspense fallback={<LatestPodcastsLoading />}>
-        <LatestPodcasts />
-      </Suspense>
 
       <Subheading
         className="text-subheading"
         url="/authors"
-        linkText="All authors"
+        linkText="Все авторы"
       >
-        Authors
+        Авторы
       </Subheading>
 
       <Suspense fallback={<AuthorsLoading />}>

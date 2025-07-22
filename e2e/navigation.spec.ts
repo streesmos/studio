@@ -10,7 +10,7 @@ test("should navigate from home page to magazine page using header", async ({
   await page.goto("/");
   await page
     .getByRole("banner")
-    .getByRole("link", { name: "Magazine" })
+    .getByRole("link", { name: "Портфолио" })
     .click();
   await expect(page).toHaveURL("/magazine");
 });

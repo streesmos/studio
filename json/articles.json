@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "author": "Andrey Lis",
+    "author": "Begov Nazim",
     "job": "Web Developer",
     "city": "Ufa",
     "avatar": "/images/authors/anne-henry.jpg",
-    "imgAlt": "Portrait of Andrey",
-    "slug": "andrey-lis",
+    "imgAlt": "Portrait of Begov Nazim",
+    "slug": "begov-nazim",
     "biography": {
-      "summary": "Andrey is a full-stack developer specialising in React and Next.js.",
-      "body": "Over the years Andrey has created numerous websites and web applications for clients in various industries."
+      "summary": "Begov Nazim — full-stack developer specializing in React and Next.js.",
+      "body": "За годы работы реализовал множество сайтов и веб‑приложений для клиентов из разных отраслей."
     },
     "articles": [
       {
