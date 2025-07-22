@@ -45,10 +45,7 @@ export default function LatestArticles() {
                         {data[0].articles[0].date}
                       </time>
                     </span>
-                    <span className="flex flex-wrap">
-                      <p className="font-semibold pr-2">Чтение</p>
-                      <p>{data[0].articles[0].read}</p>
-                    </span>
+                   
                   </div>
                   <span className="px-3 py-2 border border-black rounded-full w-fit">
                     <p className="uppercase">{data[0].articles[0].label}</p>
@@ -103,10 +100,7 @@ export default function LatestArticles() {
                           <p className="font-semibold pr-2">Дата</p>
                           <time dateTime={article.date}>{article.date}</time>
                         </span>
-                        <span className="flex flex-wrap">
-                          <p className="font-semibold pr-2">Чтение</p>
-                          <p>{article.read}</p>
-                        </span>
+                       
                       </div>
                       <span className="px-3 py-2 border border-black rounded-full w-fit">
                         <p className="uppercase">{article.label}</p>
