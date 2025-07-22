@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="max-w-[95rem] mx-auto px-6">
         <div className="py-8 xl:py-[128px] grid grid-cols-1 2xl:grid-cols-2 gap-2 md:gap-12 xl:gap-32 items-center">
           <h2 className="uppercase text-footer-title">
-            Design news to your inbox
+            Новости дизайна на вашу почту
           </h2>
           <div className="flex flex-wrap lg:justify-end gap-3">
             <NewsletterSignUp
@@ -104,13 +104,10 @@ export default function Footer() {
             <nav className="flex flex-1" aria-label="middle-footer-links">
               <ul className="text-white space-y-3">
                 <li>
-                  <Link href="/magazine">Magazine</Link>
+                  <Link href="/magazine">Портфолио</Link>
                 </li>
                 <li>
-                  <Link href="/podcasts">Podcast</Link>
-                </li>
-                <li>
-                  <Link href="/authors">Authors</Link>
+                  <Link href="/authors">Авторы</Link>
                 </li>
               </ul>
             </nav>

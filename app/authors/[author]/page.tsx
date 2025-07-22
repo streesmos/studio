@@ -47,7 +47,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${authorData.author} | Fyrre Magazine`,
+    title: `${authorData.author} | Портфолио`,
   };
 }
 
@@ -144,11 +144,11 @@ function AuthorArticles({ articles }: { articles: ArticleData[] }) {
             </p>
             <div className="flex gap-8">
               <span className="flex">
-                <p className="font-semibold pr-2">Date</p>
+                <p className="font-semibold pr-2">Дата</p>
                 <time dateTime={article.date}>{article.date}</time>
               </span>
               <span className="flex">
-                <p className="font-semibold pr-2">City</p>
+                <p className="font-semibold pr-2">Город</p>
                 <p className="">{article.label}</p>
               </span>
             </div>

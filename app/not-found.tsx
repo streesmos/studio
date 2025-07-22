@@ -2,8 +2,8 @@ import PageTitle from "@/components/PageTitle";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Page not found | Fyrre Magazine",
-  description: "Page does not exist",
+  title: "Страница не найдена",
+  description: "Страница не существует",
 };
 
 export default function NotFound() {
@@ -13,14 +13,14 @@ export default function NotFound() {
         <PageTitle
           className="sr-only"
           imgSrc="/images/titles/NotFound.svg"
-          imgAlt="The words 'Not Found' in bold uppercase lettering"
+          imgAlt="Надпись 'Not Found'"
         >
-          Not Found
+          Не найдено
         </PageTitle>
         <h2>
-          The page you&apos;re looking for does not exist. Click{" "}
+          Страница не найдена. Нажмите{" "}
           <Link className="font-semibold" href="/">
-            here to return home
+            здесь, чтобы вернуться на главную
           </Link>
         </h2>
       </div>

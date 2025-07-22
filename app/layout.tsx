@@ -3,12 +3,11 @@ import "./globals.css";
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import PodcastContextProvider from "@/context/PodcastContext";
 import ArticleContextProvider from "@/context/ArticleContext";
 
 export const metadata: Metadata = {
-  title: "Andrey Portfolio",
-  description: "Web developer works",
+  title: "Портфолио Begov Nazim",
+  description: "Работы веб-разработчика",
 };
 
 export default function RootLayout({
@@ -17,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="ru" className="scroll-smooth">
       <head>
         <link
           rel="icon"
@@ -27,13 +26,11 @@ export default function RootLayout({
       </head>
       <body>
         <ArticleContextProvider>
-          <PodcastContextProvider>
-            <Container>
-              <Header />
-              {children}
-              <Footer />
-            </Container>
-          </PodcastContextProvider>
+          <Container>
+            <Header />
+            {children}
+            <Footer />
+          </Container>
         </ArticleContextProvider>
       </body>
     </html>
