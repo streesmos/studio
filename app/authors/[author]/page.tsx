@@ -106,7 +106,7 @@ export default async function AuthorDetails({
         </article>
         <div className="pb-12 md:pb-48">
           <h2 className="text-blog-subheading mt-[9.5rem] pt-12 pb-12 md:pb-24">
-            Статьи автора {authorData.author}
+            Работы автора {authorData.author}
           </h2>
           <AuthorArticles articles={authorData.articles} />
         </div>
@@ -143,7 +143,7 @@ function AuthorArticles({ articles }: { articles: ArticleData[] }) {
                 <time dateTime={article.date}>{article.date}</time>
               </span>
               <span className="flex">
-                <p className="font-semibold pr-2">Город</p>
+                <p className="font-semibold pr-2">Категория</p>
                 <p className="">{article.label}</p>
               </span>
             </div>
