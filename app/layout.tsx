@@ -7,8 +7,8 @@ import PodcastContextProvider from "@/context/PodcastContext";
 import ArticleContextProvider from "@/context/ArticleContext";
 
 export const metadata: Metadata = {
-  title: "Fyrre Magazine",
-  description: "Art & Life",
+  title: "Andrey Portfolio",
+  description: "Web developer works",
 };
 
 export default function RootLayout({

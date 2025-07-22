@@ -6,15 +6,11 @@ type MenuItem = {
 const menu: MenuItem[] = [
   {
     href: "/magazine",
-    label: "Magazine",
+    label: "Portfolio",
   },
   {
-    href: "/podcasts",
-    label: "Podcasts",
-  },
-  {
-    href: "/authors",
-    label: "Authors",
+    href: "/brief",
+    label: "Brief",
   },
 ];
 

@@ -15,14 +15,8 @@ export type PodcastType = {
   }[];
 };
 
+import podcasts from "@/json/podcasts.json";
+
 export async function getPodcasts(): Promise<PodcastType[]> {
-  const res = await fetch(
-    "https://raw.githubusercontent.com/asbhogal/Fyrre-Magazine/main/json/podcasts.json"
-  );
-
-  if (!res.ok) {
-    throw new Error("Failed to fetch podcast data");
-  }
-
-  return res.json();
+  return podcasts as PodcastType[];
 }
