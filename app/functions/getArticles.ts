@@ -28,14 +28,8 @@ export type ArticleType = {
   }>;
 };
 
+import articles from "@/json/articles.json";
+
 export async function getArticles() {
-  const res = await fetch(
-    "https://raw.githubusercontent.com/asbhogal/Fyrre-Magazine/main/json/articles.json"
-  );
-
-  if (!res.ok) {
-    throw new Error("Failed to fetch article data");
-  }
-
-  return res.json();
+  return articles as ArticleType[];
 }
