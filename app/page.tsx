@@ -7,6 +7,7 @@ import AuthorsLoading from "@/components/Authors/loading";
 import NewsTicker from "@/components/NewsTicker/NewsTicker";
 import PageTitle from "@/components/PageTitle";
 import Subheading from "@/components/Subheading";
+import ServicesPreview from "@/components/ServicesPreview";
 import { Suspense } from "react";
 
 export const metadata = {
@@ -31,6 +32,15 @@ export default function Home() {
 
       <LatestArticles />
 
+      <Subheading
+        className="text-subheading"
+        url="/services"
+        linkText="Все услуги"
+      >
+        Услуги
+      </Subheading>
+
+      <ServicesPreview />
 
       <Subheading
         className="text-subheading"
