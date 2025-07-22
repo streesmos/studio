@@ -34,7 +34,7 @@ export default async function AuthorsList() {
                 className="flex gap-2"
                 href={`authors/${formatString(authors.author)}`}
               >
-                <span className="uppercase font-semibold">About</span>
+                <span className="uppercase font-semibold">Подробнее</span>
                 <img
                   src="/icons/ri_arrow-right-line.svg"
                   alt="An arrow pointing right"
