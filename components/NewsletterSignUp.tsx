@@ -67,7 +67,7 @@ export default function NewsletterSignUp({
           {...register("email")}
           className={`mb-2 ${inputClassName}`}
           type="text"
-          placeholder="Email Address"
+          placeholder="Email"
           name="email"
         />
         <Button
@@ -75,7 +75,7 @@ export default function NewsletterSignUp({
           type="submit"
           className={`disabled:cursor-none ${buttonClassName}`}
         >
-          Sign Up
+          Подписаться
         </Button>
       </div>
       {errors.email && (

@@ -4,8 +4,8 @@ import { Suspense } from "react";
 import Loading from "./loading";
 
 export const metadata = {
-  title: "Authors  | Fyrre Magazine",
-  description: "Our authors",
+  title: "Авторы",
+  description: "Наши авторы",
 };
 
 export default function AuthorsPage() {
@@ -14,9 +14,9 @@ export default function AuthorsPage() {
       <PageTitle
         className="sr-only"
         imgSrc="/images/titles/Authors.svg"
-        imgAlt="The word 'Author' in uppercase, bold lettering"
+        imgAlt="Слово 'Автор' крупными буквами"
       >
-        Authors
+        Авторы
       </PageTitle>
       <Suspense fallback={<Loading />}>
         <AuthorsList />

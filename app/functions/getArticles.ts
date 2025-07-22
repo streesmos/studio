@@ -6,6 +6,10 @@ export type ArticleType = {
   avatar: string;
   imgAlt: string;
   slug: string;
+  biography: {
+    summary: string;
+    body: string;
+  };
   articles: Array<{
     title: string;
     popular: boolean;
@@ -31,5 +35,5 @@ export type ArticleType = {
 import articles from "@/json/articles.json";
 
 export async function getArticles() {
-  return articles as ArticleType[];
+  return articles as unknown as ArticleType[];
 }

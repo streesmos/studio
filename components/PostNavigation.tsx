@@ -21,7 +21,7 @@ export default function PostNavigation({
           src="/icons/ri_arrow-right-line.svg"
           alt="Right arrow"
         />
-        Go Back
+        Назад
       </Link>
       <p className="uppercase font-semibold text-lg md:text-[2rem]">
         {children}

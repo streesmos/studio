@@ -10,8 +10,8 @@ import Subheading from "@/components/Subheading";
 import { Suspense } from "react";
 
 export const metadata = {
-  title: "Andrey Portfolio | Home",
-  description: "Showcase of completed projects",
+  title: "Портфолио Бегова Назима",
+  description: "Примеры выполненных проектов",
 };
 
 export default function Home() {
@@ -31,24 +31,13 @@ export default function Home() {
 
       <LatestArticles />
 
-      <Subheading
-        className="text-subheading"
-        url="/podcasts"
-        linkText="All episodes"
-      >
-        Podcast
-      </Subheading>
-
-      <Suspense fallback={<LatestPodcastsLoading />}>
-        <LatestPodcasts />
-      </Suspense>
 
       <Subheading
         className="text-subheading"
         url="/authors"
-        linkText="All authors"
+        linkText="Все авторы"
       >
-        Authors
+        Авторы
       </Subheading>
 
       <Suspense fallback={<AuthorsLoading />}>

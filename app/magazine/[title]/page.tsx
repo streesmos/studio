@@ -72,17 +72,17 @@ export default async function ArticleDetails({
         <div className="flex flex-col md:flex-row justify-between gap-6 md:gap-0 mb-8">
           <div className="flex flex-col sm:flex-row md:items-center gap-2 sm:gap-6">
             <span className="flex flex-wrap">
-              <p className="font-semibold pr-2">Text</p>
+              <p className="font-semibold pr-2">Автор</p>
               <p>{articleData.author}</p>
             </span>
             <span className="flex flex-wrap">
-              <p className="font-semibold pr-2">Date</p>
+              <p className="font-semibold pr-2">Дата</p>
               <time dateTime={matchingArticle.date}>
                 {matchingArticle.date}
               </time>
             </span>
             <span className="flex flex-wrap">
-              <p className="font-semibold pr-2">Read</p>
+              <p className="font-semibold pr-2">Чтение</p>
               <p>{matchingArticle.read}</p>
             </span>
           </div>
@@ -112,13 +112,13 @@ export default async function ArticleDetails({
 
             <div className="flex flex-col gap-4 pt-8">
               <div className="flex flex-wrap justify-between">
-                <p className="font-semibold">Date</p>
+                <p className="font-semibold">Дата</p>
                 <time dateTime={matchingArticle.date}>
                   {matchingArticle.date}
                 </time>
               </div>
               <div className="flex flex-wrap justify-between">
-                <p className="font-semibold">Read</p>
+                <p className="font-semibold">Чтение</p>
                 <p>{matchingArticle.read}</p>
               </div>
               <div className="flex flex-wrap justify-between">
@@ -170,9 +170,9 @@ export default async function ArticleDetails({
           <Subheading
             className="text-subheading"
             url="/magazine"
-            linkText="See all"
+            linkText="Смотреть все"
           >
-            Latest Posts
+            Последние статьи
           </Subheading>
           {latestArticles.map((latestArticles) => (
             <div key={latestArticles.slug}>
@@ -209,11 +209,11 @@ export default async function ArticleDetails({
                 <p className="mt-3 mb-12">{latestArticle.description}</p>
                 <div className="flex flex-wrap gap-4">
                   <span className="flex">
-                    <p className="font-semibold pr-2">Text</p>
+                    <p className="font-semibold pr-2">Автор</p>
                     <p>{articleData.author}</p>
                   </span>
                   <span className="flex">
-                    <p className="font-semibold pr-2">Duration</p>
+                    <p className="font-semibold pr-2">Длительность</p>
                     <p>{latestArticle.read}</p>
                   </span>
                 </div>

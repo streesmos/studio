@@ -8,7 +8,7 @@ export default function Header() {
     <header className="flex flex-col justify-between max-w-[95rem] w-full mx-auto px-4 md:pt-8 pt-4 lg:pb-4 md:pb-4 sm:pb-2 xs:pb-2">
       <div className="flex">
         <div className="flex flex-1">
-          <Link href="/" aria-label="Return to homepage">
+          <Link href="/" aria-label="Вернуться на главную">
             <img
               className="h-full w-fit"
               src="/logos/FyrreMagazineLogo-Black.svg"
@@ -19,7 +19,7 @@ export default function Header() {
         <Sheet>
           <SheetTrigger aria-labelledby="button-label">
             <span id="button-label" hidden>
-              Menu
+              Меню
             </span>
             <svg
               aria-hidden="true"
@@ -38,7 +38,7 @@ export default function Header() {
           <SheetContent
             side="top"
             className="w-full pt-14"
-            aria-label="Menu Toggle"
+            aria-label="Переключить меню"
           >
             <nav
               className="flex flex-col flex-1 justify-end gap-6"
