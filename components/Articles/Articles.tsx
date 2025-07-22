@@ -7,10 +7,10 @@ import { useState } from "react";
 
 export default function Articles() {
   const { data } = useArticleContext();
-  const [selectedLabel, setSelectedLabel] = useState("All");
+  const [selectedLabel, setSelectedLabel] = useState("Все");
 
   const labels: string[] = [
-    "All",
+    "Все",
     ...new Set(
       data.flatMap((article) => article.articles.map((item) => item.label))
     ),
@@ -19,7 +19,7 @@ export default function Articles() {
   const filteredArticles = data.flatMap((article) =>
     article.articles
       .filter((item) =>
-        selectedLabel === "All" ? true : selectedLabel === item.label
+        selectedLabel === "Все" ? true : selectedLabel === item.label
       )
       .map((item) => ({
         ...item,
@@ -30,7 +30,7 @@ export default function Articles() {
   return (
     <div className="max-w-[95rem] w-full mx-auto">
       <div className="flex flex-wrap justify-between items-center gap-2 md:gap-0 my-6">
-        <p className="font-semibold uppercase">Categories</p>
+        <p className="font-semibold uppercase">Категории</p>
         {data && (
           <div className="flex flex-wrap gap-2">
             {labels.map((label, index) => (
@@ -76,10 +76,7 @@ export default function Articles() {
                 <p className="font-semibold pr-2">Автор</p>
                 <p>{articleData.author}</p>
               </span>
-              <span className="flex">
-                <p className="font-semibold pr-2">Длительность</p>
-                <p>{articleData.read}</p>
-              </span>
+             
             </div>
           </article>
         ))}
