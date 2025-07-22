@@ -20,12 +20,12 @@
         "date": "01 January 2024",
         "read": "2 mins",
         "label": "portfolio",
-        "img": "https://via.placeholder.com/600x400.png?text=cstbi.ru",
+        "img": "https://dummyimage.com/600x400.png?text=cstbi.ru",
         "imgAlt": "Screenshot of cstbi.ru",
         "slug": "cstbi",
         "content": [
           {
-            "img": "https://via.placeholder.com/1488x992.png?text=cstbi.ru",
+            "img": "https://dummyimage.com/1488x992.png?text=cstbi.ru",
             "summary": "Project overview and goals."
           },
           {
@@ -53,12 +53,12 @@
         "date": "15 February 2024",
         "read": "2 mins",
         "label": "portfolio",
-        "img": "https://via.placeholder.com/600x400.png?text=begovclt.ru",
+        "img": "https://dummyimage.com/600x400.png?text=begovclt.ru",
         "imgAlt": "Screenshot of begovclt.ru",
         "slug": "begovclt",
         "content": [
           {
-            "img": "https://via.placeholder.com/1488x992.png?text=begovclt.ru",
+            "img": "https://dummyimage.com/1488x992.png?text=begovclt.ru",
             "summary": "Landing page describing the club."
           },
           {
