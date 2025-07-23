@@ -1,4 +1,5 @@
 import { useForm } from "react-hook-form";
+import { useForm as useFormSpree } from "@formspree/react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -30,34 +31,20 @@ export default function NewsletterSignUp({
     resolver: zodResolver(subscribeNewsletterSchema),
   });
 
+  const [state, handleSubmitSpree] = useFormSpree<TSubscribeNewsletterSchema>(
+    "mzzveraz"
+  );
+
   const onSubmit = async (data: TSubscribeNewsletterSchema) => {
-    const response = await fetch("/api/subscribe", {
-      method: "POST",
-      body: JSON.stringify({ email: data.email }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-
-    const responseData = await response.json();
-
-    if (!response.ok) {
-      alert("Email subscription form failed");
-      return;
-    }
-
-    if (responseData.errors) {
-      const errors = responseData.errors;
+    const res = await handleSubmitSpree({ email: data.email });
+    if (res?.errors) {
+      const errors = res.errors as Record<string, string>;
       if (errors.email) {
-        setError("email", {
-          type: "server",
-          message: errors.email,
-        });
-      } else {
-        alert("Something went wrong");
+        setError("email", { type: "server", message: errors.email });
       }
+    } else if (res?.ok) {
+      reset();
     }
-    // reset();
   };
 
   return (
@@ -78,6 +65,9 @@ export default function NewsletterSignUp({
           Подписаться
         </Button>
       </div>
+      {state.succeeded && (
+        <p className="text-green-700 bg-green-100 mb-2">Подписка оформлена</p>
+      )}
       {errors.email && (
         <p className="text-red-500 mb-2">{`${errors.email.message}`}</p>
       )}

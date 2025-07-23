@@ -43,10 +43,6 @@ export default function ContactsForm() {
     await handleSubmitSpree(processed);
   }
 
-  if (state.succeeded) {
-    return <p className="p-4">Сообщение отправлено</p>;
-  }
-
   return (
     <>
       <PageTitle className="text-subtitle pb-6" imgSrc="" imgAlt="">
@@ -63,6 +59,9 @@ export default function ContactsForm() {
         </a>
       </div>
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4 max-w-xl">
+        {state.succeeded && (
+          <p className="p-4 bg-green-100 text-green-700">Сообщение отправлено</p>
+        )}
         <Input placeholder="Имя" {...register('name')} />
         <Input type="tel" placeholder="Телефон" {...register('phone')} />
         <Input type="email" placeholder="Email" {...register('email')} />
