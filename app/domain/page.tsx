@@ -9,7 +9,7 @@ export const metadata = {
 export default function DomainPage() {
   return (
     <main className="flex flex-col min-h-screen max-w-[95rem] w-full mx-auto px-4 py-8">
-      <PageTitle className="text-subtitle" imgSrc="" imgAlt="">
+      <PageTitle className="text-subtitle pb-6" imgSrc="" imgAlt="">
         Проверка домена
       </PageTitle>
       <DomainChecker />

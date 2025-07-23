@@ -57,7 +57,7 @@ export default function BriefPage() {
 
   return (
     <main className="max-w-[95rem] w-full mx-auto px-4 py-8">
-      <h1 className="text-subtitle mb-6">Бриф на разработку сайта</h1>
+      <h1 className="text-subtitle mb-6 pb-6">Бриф на разработку сайта</h1>
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-6 max-w-xl">
         {step === 1 && (
           <div className="flex flex-col gap-4">
