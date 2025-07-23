@@ -36,9 +36,6 @@ export default function ContactsForm() {
     await handleSubmitSpree(processed);
   }
 
-  if (state.succeeded) {
-    return <p className="p-4">Сообщение отправлено</p>;
-  }
 
   return (
     <>
@@ -56,6 +53,9 @@ export default function ContactsForm() {
         </a>
       </div>
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4 max-w-xl">
+         {state.succeeded && (
+          <p className="p-4 bg-green-100 text-green-700">Сообщение отправлено</p>
+        )}
         <Input placeholder="Имя" {...register('name')} />
         <Input type="email" placeholder="Email" {...register('email')} />
         <textarea className="border p-2" placeholder="Сообщение" {...register('message')} />
