@@ -1,5 +1,5 @@
-import PageTitle from "@/components/PageTitle";
 'use client';
+import PageTitle from "@/components/PageTitle";
 import React from "react";
 import { useForm as useFormHook } from 'react-hook-form';
 import { z } from 'zod';
