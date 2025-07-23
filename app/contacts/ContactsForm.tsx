@@ -10,8 +10,15 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 
 const schema = z.object({
-  name: z.string().optional(),
-  email: z.string().email('Неверный email').optional(),
+  name: z.string().min(1, 'Имя обязательно'),
+  email: z
+    .string()
+    .min(1, 'Email обязателен')
+    .email('Неверный email'),
+  phone: z
+    .string()
+    .min(1, 'Телефон обязателен')
+    .regex(/^(\+7|8)\d{10}$/, 'Неверный номер телефона'),
   message: z.string().optional(),
 });
 
@@ -57,6 +64,7 @@ export default function ContactsForm() {
       </div>
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4 max-w-xl">
         <Input placeholder="Имя" {...register('name')} />
+        <Input type="tel" placeholder="Телефон" {...register('phone')} />
         <Input type="email" placeholder="Email" {...register('email')} />
         <textarea className="border p-2" placeholder="Сообщение" {...register('message')} />
         <Button type="submit">Отправить</Button>
