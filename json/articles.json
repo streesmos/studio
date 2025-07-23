@@ -20,12 +20,12 @@
         "date": "Март 2025",
         "read": "2 mins",
         "label": "Корпоративный",
-        "img": "https://mini.s-shot.ru/600x400/JPEG/600/Z100/?https%3A%2F%2Fcstbi.ru",
+        "img": "/images/screen/cstbi-minb.jpg",
         "imgAlt": "Screenshot of cstbi.ru",
         "slug": "cstbi",
         "content": [
           {
-            "img": "https://mini.s-shot.ru/1488x992/JPEG/1488/Z100/?https%3A%2F%2Fcstbi.ru",
+            "img": "/images/screen/cstbi-fullg.jpg",
             "summary": "Описание проекта и его цели."
           },
           {
@@ -53,12 +53,12 @@
         "date": "Февраль 2025",
         "read": "2 mins",
         "label": "Лендинг",
-        "img": "https://mini.s-shot.ru/600x400/JPEG/600/Z100/?https%3A%2F%2Fbegovclt.ru",
+        "img": "/images/screen/begovclt-minb.jpg",
         "imgAlt": "Screenshot of begovclt.ru",
         "slug": "begovclt",
         "content": [
           {
-            "img": "https://mini.s-shot.ru/1488x992/JPEG/1488/Z100/?https%3A%2F%2Fbegovclt.ru",
+            "img": "/images/screen/begovclt-fullb.jpg",
             "summary": "Лендинг, описывающий консалтинговое агенство."
           },
           {
@@ -86,12 +86,12 @@
         "date": "Сентябрь 2021",
         "read": "2 mins",
         "label": "Корпоративный",
-        "img": "https://mini.s-shot.ru/600x400/JPEG/600/Z100/?https%3A%2F%2Fbuhsec.ru",
+        "img": "/images/screen/buhsec-minb.jpg",
         "imgAlt": "Screenshot of buhsec.ru",
         "slug": "buhsec",
         "content": [
           {
-            "img": "https://mini.s-shot.ru/1488x992/JPEG/1488/Z100/?https%3A%2F%2Fbuhsec.ru",
+            "img": "/images/screen/buhsec-fullb.jpg",
             "summary": "Витрина услуг и формы обратной связи."
           },
           {
@@ -119,12 +119,12 @@
         "date": "Январь 2024",
         "read": "2 mins",
         "label": "Лендинг",
-        "img": "https://mini.s-shot.ru/600x400/JPEG/600/Z100/?https%3A%2F%2Fvpwallet.io",
+        "img": "/images/screen/vpwallet-minb.jpg",
         "imgAlt": "Screenshot of vpwallet.io",
         "slug": "vpwallet",
         "content": [
           {
-            "img": "https://mini.s-shot.ru/1488x992/JPEG/1488/Z100/?https%3A%2F%2Fvpwallet.io",
+            "img": "/images/screen/vpwallet-fullb.jpg",
             "summary": "Раскрывает возможности кошелька."
           },
           {
@@ -152,12 +152,12 @@
         "date": "Май 2020",
         "read": "14 mins",
         "label": "Корпоративный",
-        "img": "https://mini.s-shot.ru/600x400/JPEG/600/Z100/?https%3A%2F%2Fmsk-sarmat.ru",
+        "img": "/images/screen/msk-sarmat-minb.jpg",
         "imgAlt": "Screenshot of msk-sarmat.ru",
         "slug": "msksarmat",
         "content": [
           {
-            "img": "https://mini.s-shot.ru/1488x992/JPEG/1488/Z100/?https%3A%2F%2Fmsk-sarmat.ru",
+            "img": "/images/screen/msk-sarmat-fullb.jpg",
             "summary": "Информация об услугах и лицензиях."
           },
           {
@@ -185,12 +185,12 @@
         "date": "Декабрь 2023",
         "read": "2 mins",
         "label": "Корпоративный",
-        "img": "https://mini.s-shot.ru/600x400/JPEG/600/Z100/?https%3A%2F%2Frusalmix.ru",
+        "img": "/images/screen/rusalmix-minb.jpg",
         "imgAlt": "Screenshot of rusalmix.ru",
         "slug": "rusalmix",
         "content": [
           {
-            "img": "https://mini.s-shot.ru/1488x992/JPEG/1488/Z100/?https%3A%2F%2Frusalmix.ru",
+            "img": "/images/screen/rusalmix-fullb.jpg",
             "summary": "Каталог продукции с фильтрами."
           },
           {
@@ -218,12 +218,12 @@
         "date": "июнь 2018",
         "read": "2 mins",
         "label": "Интернет-магазин",
-        "img": "https://mini.s-shot.ru/600x400/JPEG/600/Z100/?https%3A%2F%2Fdveribrend.ru",
+        "img": "/images/screen/dveribrend-minb.jpg",
         "imgAlt": "Screenshot of rusalmix.ru",
         "slug": "dveribrend",
         "content": [
           {
-            "img": "https://mini.s-shot.ru/1488x992/JPEG/1488/Z100/?https%3A%2F%2Fdveribrend.ru",
+            "img": "/images/screen/dveribrend-fullb.jpg",
             "summary": "Интернет-магазин дверей с фильтрами и корзиной."
           },
           {
