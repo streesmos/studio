@@ -20,6 +20,10 @@ const menu: MenuItem[] = [
     href: "/domain",
     label: "Домен",
   },
+  {
+    href: "/contacts",
+    label: "Контакты",
+  },
 ];
 
 export default menu;

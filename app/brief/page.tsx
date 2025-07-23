@@ -9,7 +9,7 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 
 const schema = z.object({
-  companyName: z.string().min(1, 'Обязательно'),
+  companyName: z.string().optional(),
   city: z.string().optional(),
   year: z.string().optional(),
   activity: z.string().optional(),
@@ -48,7 +48,18 @@ export default function BriefPage() {
   const [step, setStep] = React.useState(1);
 
   async function onSubmit(data: FormSchema) {
-    await handleSubmitSpree(data);
+    const processed: Record<string, any> = { ...data };
+    Object.entries(processed).forEach(([key, value]) => {
+      if (
+        value === undefined ||
+        value === null ||
+        (typeof value === 'string' && value.trim() === '') ||
+        (Array.isArray(value) && value.length === 0)
+      ) {
+        processed[key] = 'пусто';
+      }
+    });
+    await handleSubmitSpree(processed);
   }
 
   if (state.succeeded) {
