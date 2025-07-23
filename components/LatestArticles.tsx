@@ -33,16 +33,12 @@ export default function LatestArticles() {
               <div className="flex flex-wrap justify-between items-center gap-2">
                 <div className="flex flex-wrap gap-2 sm:gap-6">
                   <span className="flex flex-wrap">
-                    <p className="font-semibold pr-2">Автор</p>
+                    <p className="font-semibold pr-2">Разработчик</p>
                     <p>{data[0].author}</p>
                   </span>
                   <span className="flex flex-wrap">
                     <p className="font-semibold pr-2">Дата</p>
                     <p>{data[0].articles[0].date}</p>
-                  </span>
-                  <span className="flex flex-wrap">
-                    <p className="font-semibold pr-2">Чтение</p>
-                    <p>{data[0].articles[0].read}</p>
                   </span>
                 </div>
                 <span className="px-3 py-2 border border-black rounded-full">
@@ -85,16 +81,12 @@ export default function LatestArticles() {
                     <div className="flex flex-wrap gap-4 justify-between items-center">
                       <div className="flex gap-6">
                         <span className="flex flex-wrap">
-                          <p className="font-semibold pr-2">Автор</p>
+                          <p className="font-semibold pr-2">Разработчик</p>
                           <p>{data[0].author}</p>
                         </span>
                         <span className="flex flex-wrap">
                           <p className="font-semibold pr-2">Дата</p>
                           <p>{article.date}</p>
-                        </span>
-                        <span className="flex flex-wrap">
-                          <p className="font-semibold pr-2">Чтение</p>
-                          <p>{article.read}</p>
                         </span>
                       </div>
                       <span className="px-3 py-2 border border-black rounded-full">

@@ -42,8 +42,8 @@ export default function Footer() {
                 <li>
                   <Link href="/services">Услуги</Link>
                 </li>
-                 <li>
-                  <Link href="/authors">Авторы</Link>
+                <li>
+                  <Link href="/authors">Разработчики</Link>
                 </li>
               </ul>
             </nav>
@@ -53,7 +53,7 @@ export default function Footer() {
                   <a href="/brief">Бриф</a>
                 </li>
                 <li>
-                  <a href="#">Проверить домен</a>
+                  <Link href="/domain">Домен</Link>
                 </li>
                
               </ul>

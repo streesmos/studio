@@ -16,6 +16,10 @@ const menu: MenuItem[] = [
     href: "/brief",
     label: "Бриф",
   },
+  {
+    href: "/domain",
+    label: "Домен",
+  },
 ];
 
 export default menu;
