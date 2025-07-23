@@ -47,7 +47,7 @@ export default function Home() {
         url="/authors"
         linkText="Все разработчики"
       >
-        Авторы
+        Разработчики
       </Subheading>
 
       <Suspense fallback={<AuthorsLoading />}>

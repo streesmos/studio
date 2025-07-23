@@ -4,8 +4,8 @@ import { Suspense } from "react";
 import Loading from "./loading";
 
 export const metadata = {
-  title: "Авторы",
-  description: "Наши авторы",
+  title: "Разработчики",
+  description: "Наши разработчики",
 };
 
 export default function AuthorsPage() {
@@ -14,9 +14,9 @@ export default function AuthorsPage() {
       <PageTitle
         className="sr-only"
         imgSrc="/images/titles/Authors.svg"
-        imgAlt="Слово 'Автор' крупными буквами"
+        imgAlt="Слово 'Разработчик' крупными буквами"
       >
-        Авторы
+        Разработчики
       </PageTitle>
       <Suspense fallback={<Loading />}>
         <AuthorsList />

@@ -36,7 +36,7 @@ export default function LatestArticles() {
                 <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-2">
                   <div className="flex flex-col sm:flex-row gap-2 sm:gap-6">
                     <span className="flex flex-wrap">
-                      <p className="font-semibold pr-2">Автор</p>
+                      <p className="font-semibold pr-2">Разработчик</p>
                       <p>{data[0].author}</p>
                     </span>
                     <span className="flex flex-wrap">
@@ -93,7 +93,7 @@ export default function LatestArticles() {
                     <div className="flex flex-col sm:flex-row gap-4 justify-between sm:items-center">
                       <div className="flex flex-col sm:flex-row gap-2 sm:gap-6">
                         <span className="flex flex-wrap">
-                          <p className="font-semibold pr-2">Автор</p>
+                          <p className="font-semibold pr-2">Разработчик</p>
                           <p>{data[0].author}</p>
                         </span>
                         <span className="flex flex-wrap">
