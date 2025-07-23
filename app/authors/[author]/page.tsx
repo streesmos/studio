@@ -40,7 +40,7 @@ export async function generateMetadata({
 
   if (!authorData) {
     return {
-      title: "Автор не найден",
+      title: "Разработчик не найден",
     };
   }
 
@@ -61,12 +61,12 @@ export default async function AuthorDetails({
 
     const authorData = authors.find((author) => author.slug === decodedAuthor);
     if (!authorData) {
-      return <p>Автор не найден</p>;
+      return <p>Разработчик не найден</p>;
     }
 
     return (
       <main className="max-w-[95rem] w-full mx-auto px-4 sm:pt-4 xs:pt-2 lg:pb-4 md:pb-4 sm:pb-2 xs:pb-2">
-        <PostNavigation href="/authors">Авторы</PostNavigation>
+        <PostNavigation href="/authors">Разработчики</PostNavigation>
         <article className="max-w-[75rem] w-full mx-auto grid lg:grid-cols-[300px_680px] gap-8 md:gap-6 justify-around">
           <div className="w-fit">
             <img src={authorData.avatar} alt={authorData.imgAlt} />
@@ -106,7 +106,7 @@ export default async function AuthorDetails({
         </article>
         <div className="pb-12 md:pb-48">
           <h2 className="text-blog-subheading mt-[9.5rem] pt-12 pb-12 md:pb-24">
-            Работы автора {authorData.author}
+            Работы разработчика {authorData.author}
           </h2>
           <AuthorArticles articles={authorData.articles} />
         </div>
