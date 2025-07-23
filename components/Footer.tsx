@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="max-w-[95rem] mx-auto px-6">
         <div className="py-8 xl:py-[128px] grid grid-cols-1 2xl:grid-cols-2 gap-2 md:gap-12 xl:gap-32 items-center">
           <h2 className="uppercase text-footer-title">
-            Новости дизайна на вашу почту
+            Оставить почту для связи?
           </h2>
           <div className="flex flex-wrap lg:justify-end gap-3">
             <NewsletterSignUp
