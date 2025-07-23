@@ -55,11 +55,11 @@ export default function LatestArticles() {
             </article>
             <div>
               <Image
-                className="w-full object-cover aspect-[9/6]"
+                className="w-full"
                 src={latestArticle.content[0].img}
                 alt={latestArticle.imgAlt}
                 width={1488}
-                height={992}
+                height={315}
                 priority
               />
             </div>
