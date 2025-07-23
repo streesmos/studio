@@ -43,14 +43,17 @@ export default function Footer() {
                   <Link href="/services">Услуги</Link>
                 </li>
                 <li>
-                  <Link href="/authors">Разработчики</Link>
+                  <Link href="/contacts">Контакты</Link>
                 </li>
               </ul>
             </nav>
             <nav className="flex flex-1" aria-label="right-footer-links">
               <ul className="text-white space-y-3">
                 <li>
-                  <a href="/brief">Бриф</a>
+                  <Link href="/authors">Разработчики</Link>
+                </li>
+                <li>
+                  <Link href="/brief">Бриф</Link>
                 </li>
                 <li>
                   <Link href="/domain">Домен</Link>
