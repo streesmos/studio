@@ -64,7 +64,7 @@ export default function NewsletterSignUp({
           type="submit"
           className={`disabled:cursor-none ${buttonClassName}`}
         >
-          Подписаться
+          Оставить!
         </Button>
       </div>
       {state.succeeded && (
