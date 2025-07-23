@@ -45,7 +45,7 @@ export default function Home() {
       <Subheading
         className="text-subheading"
         url="/authors"
-        linkText="Все авторы"
+        linkText="Все разработчики"
       >
         Авторы
       </Subheading>
