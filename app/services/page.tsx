@@ -99,7 +99,7 @@ export default function ServicesPage() {
       <PageTitle className="text-subtitle" imgSrc="" imgAlt="">
         Услуги веб-разработчика
       </PageTitle>
-      <div className="grid grid-cols-1 md:grid-cols-2 border border-black border-collapse mb-48">
+ <div className="grid grid-cols-1 md:grid-cols-2 border border-black border-collapse mb-48">
         {services.map((service) => (
           <article key={service.title} className="border border-black p-8 space-y-4">
             <h3 className="heading3-title">{service.title}</h3>

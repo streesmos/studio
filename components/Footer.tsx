@@ -63,7 +63,7 @@ export default function Footer() {
         <div className="flex flex-wrap flex-col md:flex-row justify-between gap-6 py-3 lg:pt-[6rem] lg:pb-[4.0625rem] w-full">
           <p className="font-regular text-white">
             Дизайн&nbsp;
-            <Link href="https://templates.gola.io/templates">Begov Nazim & Ilya Doncov</Link>.
+            Begov Nazim.&nbsp;
             Разработка Begov Studio.
           </p>
           <FooterSocialLinks />
